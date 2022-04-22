@@ -6,7 +6,7 @@ import ReactDOMServer from "react-dom/server";
 import App from "../src/App";
 import { StaticRouter } from "react-router-dom";
 
-const PORT = 8080;
+const PORT = 80;
 const app = express();
 
 app.use("^/$", (req, res, next) => {
